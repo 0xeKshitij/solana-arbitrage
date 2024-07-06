@@ -17,4 +17,4 @@ Run the following commands
 
 ## Run the project 
 Use the following command to run the app.
-`npm run dev` and check the `https:\\localhost:3000` to see if the app is running properly
+`npm run dev` and check the `http://localhost:3000` to see if the app is running properly
