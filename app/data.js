@@ -14,8 +14,7 @@ const getData = async () => {
     headers: {
       "Content-Type": "application/json",
       "X-API-KEY": "BQYuTITWanwYGz0YLGdcWSADO74o5RTX",
-      Authorization:
-        "Bearer ory_at_cZMaUvd9KNt998mR2NMAzqonPD8TvSY0snjgXgf08ls.c9DgfA5Quq5MJ3cMtPHGPYyMfetYkdag6GjtBee6UbY",
+      Authorization: process.env.NEXT_PUBLIC_BITQUERY_TOKEN,
     },
     data: data,
   };
